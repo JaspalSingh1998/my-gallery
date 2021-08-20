@@ -17,51 +17,52 @@ header {
   text-align: center;
 }
 .profile-pic {
-  width: 100px;
-  height: 100px;
-  border-radius: 16px;
+  width: 6.25rem;
+  height: 6.25rem;
+  border-radius: 1rem;
 }
 header {
   padding: 20px 0;
 }
 .bio {
-  margin: 12px 0;
+  margin: 1.25rem 0;
 }
 .name {
-  font-size: 14px;
+  font-size: 0.875rem;
   color: #4e5150;
   font-weight: 600;
-  margin-bottom: 4px;
+  margin-bottom: 0.25rem;
 }
 .location {
-  font-size: 10px;
+  font-size: 0.625rem;
   font-weight: 600;
   color: #a9a9a9;
 }
 .stats {
   display: flex;
-  gap: 12px;
+  gap: 0.75rem;
   justify-content: center;
 }
 .stat {
   background-color: #e5e5e5;
-  padding: 10px 20px;
-  font-size: 12px;
+  padding: 0.625rem 1.2rem;
+  font-size: 0.75rem;
   color: #4e5150;
-  border-radius: 12px;
+  border-radius: 0.75rem;
 }
 .type {
   color: #bdbdbd;
 }
 main {
+  padding: 4rem 0;
   display: grid;
   grid-template-columns: repeat(3, auto);
-  column-gap: 32px;
-  row-gap: 16px;
+  column-gap: 2rem;
+  row-gap: 1rem;
 }
 main img {
   width: 100%;
-  border-radius: 12px;
+  border-radius: 0.75rem;
 }
 .photo-2 {
   grid-column: 2/-1;
@@ -75,13 +76,13 @@ main img {
 }
 @media screen and (min-width: 768px) {
   .name {
-    font-size: 24px;
+    font-size: 1.5rem;
   }
   .location {
-    font-size: 14px;
+    font-size: 0.875rem;
   }
   .stat {
-    padding: 16px 32px;
-    font-size: 16px;
+    padding: 1rem 2rem;
+    font-size: 1rem;
   }
 }
